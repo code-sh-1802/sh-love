@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
       level: 3, 
       type: "order", 
       hearts: 4, 
-      message: "Level 3 complete! You've mastered the challenge!", 
+      message: "Level 3 complete! You've officially became the cutest person on Earth! 🤩", 
       gift: "gift3.png" 
     }
   ];
