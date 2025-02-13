@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let fireworksCount = 0;
   
   // Define the messages to display (in sequence)
-  const fireworkMessages = ["I", "love", "you", "forever", "Happy Valentine's Day!"];
+  const fireworkMessages = ["I", "love", "you", "forever", "Shamin😍"];
   let messageIndex = 0;
   
   // Particle constructor for each firework particle
