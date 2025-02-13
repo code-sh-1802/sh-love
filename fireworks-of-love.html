@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fireworks of Love 🎆</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="fireworks-of-love.js"></script>
+</head>
+<body>
+  <!-- Background Music (plays on every page) -->
+  <audio id="bg-music" loop>
+    <source src="music.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Floating Hearts for extra romance -->
+  <div class="hearts-container"></div>
+
+  <div class="container">
+    <h1>Fireworks of Love 🎆</h1>
+    <p>Click anywhere on the canvas to launch a firework 💥</p>
+    
+    <!-- Canvas for fireworks animation -->
+    <canvas id="fireworks-canvas"></canvas>
+    
+    <!-- Button that appears after several fireworks -->
+    <button id="show-surprise" class="btn hidden">Show Surprise</button>
+    
+    <!-- Final surprise message (hidden until revealed) -->
+    <div id="final-message" class="final-message hidden">
+      <h2>Bahoot ho gya angrezi ab hindi me suno 😐 Me bahoot bahoot jyda love you 🩷</h2>
+      <a href="index.html" class="link">Return Home ➝😊</a>
+    </div>
+  </div>
+</body>
+</html>
