@@ -186,12 +186,22 @@ document.addEventListener("DOMContentLoaded", function() {
       });
       gameContainer.appendChild(nextButton);
     } else {
-      // Final level completed! Now, as a surprise, declare her the winner.
+  // Final level completed! Now, as a surprise, declare her the winner.
       const finalMessage = document.createElement("div");
       finalMessage.className = "final-message";
       finalMessage.innerHTML = "<h2>Congratulations! You are the winner of my heart! ❤️👑</h2>";
       gameContainer.appendChild(finalMessage);
+  
+  // Add a navigation button to the Fireworks page
+      const fireworksNavButton = document.createElement("button");
+      fireworksNavButton.className = "btn";
+      fireworksNavButton.textContent = "Celebrate with Fireworks!";
+      fireworksNavButton.addEventListener("click", function() {
+        window.location.href = "fireworks-of-love.html";
+      });
+      gameContainer.appendChild(fireworksNavButton);
     }
+
   }
   
   // Start the first level when the page loads.
